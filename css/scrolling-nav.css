@@ -8,9 +8,35 @@ header {
   padding: 154px 0 100px;
 }
 
+.avionicalogo {
+	
+	width: 5%;
+	height: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*FullScreen CSS Styling*/
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
+  }
+
+  #trainingWord {
+  	width: 110px;
+  }
+
+  #aboutWord {
+  	width: 86px;
+  }
+
+  #contactWord {
+  	width: 101px;
+  }
+
+  .avionicalogo {
+	width: 35%;
+	height: auto;
   }
 }
 
